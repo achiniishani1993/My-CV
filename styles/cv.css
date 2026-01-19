@@ -4,6 +4,66 @@
   padding: 0;
 }
 
+.primary-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: "Courier New", monospace;
+}
+.primary-nav img {
+  width: 100px;
+  height: 100px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin-right: 1000px;
+  padding: 0;
+}
+
+
+.nav-links li {
+  margin-left: 10px; 
+  padding: 10px;
+
+}
+
+.nav-links li:first-child {
+  margin-left: 0;
+}
+
+  
+.nav-link {
+  text-decoration: none;
+  color: rgba(0, 2, 5, 0.888);
+  font-size: 1.25rem;
+}
+
+
+.nav-link:hover {
+  color: rgb(9, 99, 44);
+} 
+
+.sr-only {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(100%);
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  margin: -1px;
+  white-space: nowrap;
+}
+
+header {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
 .layout {
   display: flex;
 }
@@ -34,31 +94,21 @@
   max-width: 80%;
 }
 
-
-.name_content {
-  margin-top: 100px;
-  margin-bottom: 0px;
-  font-size: 70px;
-}
-
-.job_content{
-  margin-top: 0em;
-  margin-bottom: 0.83em;
-
-}
-
 .link {
-    margin-top: 100px;
-    line-height: 1.6;
-    font-size: 18px;
+  line-height: 2.6;
+  font-size: 18px;
+    
 }
+.link img {
+   vertical-align: middle;
+}
+
 .link a {
-  text-decoration: none;
-  color: black;
+  padding: 20px;
 }
 
 .cv {
-   margin-top: 200px;
+   margin-top: 100px;
    margin-bottom: 200px;
    font-size: 18px;
 }
@@ -70,16 +120,10 @@
 .divider{
     border: 1px solid black;
 }
-.about {
+.about , .skills {
   font-size: 15px;
-  line-height: 1.6;
+  line-height: 2.6;
   margin-bottom: 200px;
-
-}
-.skills{
-    margin-bottom: 200px;
-    font-size: 15px;
-    line-height: 2.6;
 }
 
 .cards-wrapper {
@@ -110,20 +154,10 @@
   font-size: 14px;
 }
 
-.education{
+.education, .achievements, .reference{
     margin-top: 200px;
     font-size: 15px;
     line-height: 2.6;
-}
-.achievements{
-    margin-top: 200px;
-    font-size: 15px;
-    line-height: 2.6;
-}
-.reference{
-    margin-top: 200px;
-    font-size: 15px;
-    line-height: 1.6;
 }
 
 .footer{

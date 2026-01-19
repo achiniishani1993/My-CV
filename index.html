@@ -4,40 +4,60 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My CV</title>
-    <link rel="stylesheet" href="/Styles/cv.css" />
+    <link rel="stylesheet" href="/styles/cv.css" />
   </head>
-  <body>
+  <body> 
+    <div>
+    <nav class="primary-nav">  <!-- navigation bar -->
+      <h1 class="sr-only">Page Name</h1>
+      <a href="/"><img src="images/Achini Ishani (3).png"></a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="education.html" class="nav-link">Resume</a></li>
+        <li><a href="reference" class="nav-link">Reference</a></li>
+      </ul>
+    </nav>
+  </div>
+    <header>
+        <h1 style="font-size: 80px;">Achini Ishani</h1>
+        <h2 >Front-end Developer</h2>
+    </header>
     <!-- left side -->
-    <!-- need to add navigation bar and auto scroll down -->
     <div class="layout">
     <main class="left">
-      <div>
-        <h1 class="name_content">Achini Ishani</h1>
-        <h2 class="job_content">Front-end Developer</h2>
-      </div>
-
+      
       <div class="link">
-        <p><b>Phone</b> <span>076 -654 02 57</span></p>
-        <p><b>Email</b> <span>achiniishani@gmail.com</span></p>
-        <p><b>Address</b> <span>Bärnstensvägen 8 Perstorp, Sweden</span></p>
-        <p>
+        <div>
+           <img src="/images/phone.svg" alt="icon" text="phone icon"/>  
+           <span>076 -654 02 57</span>
+        </div>
+        <div>
+           <img src="/images/email.svg" alt="icon" text="email icon"/> 
+           <span>achiniishani@gmail.com</span>
+        </div>
+        <div>
+            <img src="/images/location.svg" alt="icon" text="location icon"/> 
+             <span>Bärnstensvägen 8 Perstorp, Sweden</span>
+        </div>
+        
+       <div>
           <a
             href="https://www.linkedin.com/in/achini-ishani-1ab6a3204/ "
             target="_blank"
-            >LinkedIn</a
+            ><img src="/images/linkedin.svg" alt="logo" text="linkedin logo" /></a
           >
           <a href="https://medium.com/@achiniishani1993" target="_blank"
-            >Medium</a
+            ><img src="/images/medium.svg" alt="logo" text="medium logo" /></a
           >
-          <a href="https://github.com/achiniishani1993" target="_blank">Git</a>
-        </p>
+          <a href="https://github.com/achiniishani1993" target="_blank"><img src="/images/git.svg" alt="logo" text="git logo" /></a>
+        <div>
       </div>
 
       <div>
         <p class="cv">see full CV</p>
       </div>
 
-      <section class="about">
+      <section class="about" id="about">
         <h2 class="title">ABOUT</h2>
         <hr class="divider" />
         <p>
