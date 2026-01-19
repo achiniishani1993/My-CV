@@ -160,12 +160,16 @@ header {
 }
 
 .footer{
-  font-size: 12px;
+  font-size: 13px;
   margin-top: 200px;
-  /* background-color: rgba(142,166,155, 0.4); */
+  background-color: rgba(142,166,155, 0.4);
+  vertical-align: middle;
   
 }
-
+.footer div {
+  padding: 25px 0px;
+  margin-left: 200px;
+}
 .footer a{
   text-decoration: none;
   color: black;
