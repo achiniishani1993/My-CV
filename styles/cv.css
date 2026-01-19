@@ -10,8 +10,7 @@
   justify-content: space-between;
   padding: 10px;
   font-family: "Courier New", monospace;
-  
-  
+
 }
 
 .primary-nav img {
@@ -163,10 +162,13 @@ header {
 .footer{
   font-size: 12px;
   margin-top: 200px;
+  /* background-color: rgba(142,166,155, 0.4); */
+  
 }
 
 .footer a{
   text-decoration: none;
   color: black;
+  color:rgb(9, 99, 44);
 }
 
