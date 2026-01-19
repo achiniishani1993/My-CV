@@ -10,7 +10,10 @@
   justify-content: space-between;
   padding: 10px;
   font-family: "Courier New", monospace;
+  
+  
 }
+
 .primary-nav img {
   width: 100px;
   height: 100px;
@@ -45,19 +48,6 @@
 .nav-link:hover {
   color: rgb(9, 99, 44);
 } 
-
-.sr-only {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  clip-path: inset(100%);
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  border: 0;
-  margin: -1px;
-  white-space: nowrap;
-}
 
 header {
   margin-top: 100px;
