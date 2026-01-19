@@ -102,6 +102,16 @@ header {
    margin-bottom: 200px;
    font-size: 18px;
 }
+.cv a , img {
+   text-decoration:none;
+   color: black;
+   vertical-align: middle;
+}
+
+.cv a:hover {
+  color:rgb(9, 99, 44);
+}
+
 .title {
   font-size: 28px;
   letter-spacing: 6px;
