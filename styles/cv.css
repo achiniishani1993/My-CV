@@ -21,36 +21,27 @@
 .nav-links {
   display: flex;
   list-style: none;
-  margin-right: 1000px;
+  margin-right: 200rem;
   padding: 0;
 }
 
-
 .nav-links li {
-  margin-left: 10px; 
   padding: 10px;
 
 }
 
-.nav-links li:first-child {
-  margin-left: 0;
-}
-
-  
 .nav-link {
   text-decoration: none;
   color: rgba(0, 2, 5, 0.888);
   font-size: 1.25rem;
 }
 
-
 .nav-link:hover {
   color: rgb(9, 99, 44);
 } 
 
 header {
-  margin-top: 100px;
-  margin-left: 100px;
+   margin: 4rem 4rem 4rem;
 }
 
 .layout {
@@ -59,18 +50,17 @@ header {
 
 .left {
   width: 50%;
-  padding: 80px 100px;
+  padding: 3rem 4rem;
+  margin-right: 50%;
   font-family: "Courier New", monospace;
 }
 
 .right {
   position: fixed;
-  right: 0;
   top: 0;
-
+  right: 0;
   width: 50%;
   height: 100vh;
-
   background-color: #8ea69b;
 
   display: flex;
@@ -86,8 +76,9 @@ header {
 .link {
   line-height: 2.6;
   font-size: 18px;
-    
+     
 }
+
 .link img {
    vertical-align: middle;
 }
@@ -97,11 +88,11 @@ header {
 }
 
 .cv {
-   margin-top: 100px;
-   margin-bottom: 200px;
-   font-size: 18px;
+   margin: 7rem 0 13rem;
+   font-size: 1.125rem;
 }
-.cv a , img {
+.cv a , 
+.cv img {
    text-decoration:none;
    color: black;
    vertical-align: middle;
@@ -112,17 +103,18 @@ header {
 }
 
 .title {
-  font-size: 28px;
+  font-size: 1.75rem;
   letter-spacing: 6px;
   font-weight: 500;
 }
 .divider{
     border: 1px solid black;
 }
-.about , .skills {
-  font-size: 15px;
+
+section {
+  margin-bottom: 13rem;
+  font-size: 0.9375rem;
   line-height: 2.6;
-  margin-bottom: 200px;
 }
 
 .cards-wrapper {
@@ -130,7 +122,7 @@ header {
   gap: 10px;               
   justify-content: center; /* center cards horizontally */
   flex-wrap: wrap;         /* responsive for small screens */
-  margin-top: 30px;
+  margin-top: 1rem;
 }
 
 .card {
@@ -150,29 +142,23 @@ header {
 
 .container {
   margin: 10px 0 5px;
-  font-size: 14px;
-}
-
-.education, .achievements, .reference{
-    margin-top: 200px;
-    font-size: 15px;
-    line-height: 2.6;
+  font-size: 0.875rem;
 }
 
 .footer{
-  font-size: 13px;
-  margin-top: 200px;
+  font-size: 0.875rem;
   background-color: rgba(142,166,155, 0.4);
   vertical-align: middle;
+  color: black;
   
 }
 .footer div {
   padding: 25px 0px;
-  margin-left: 200px;
+  padding-left: 10rem;
 }
 .footer a{
   text-decoration: none;
-  color: black;
   color:rgb(9, 99, 44);
 }
+
 
